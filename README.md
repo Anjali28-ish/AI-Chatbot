@@ -13,7 +13,7 @@ An AI-powered customer support chatbot built using **Spring Boot** and **React.j
 
 ---
 
-## ✨ Features
+## Features
 
 * 💬 Real-time AI chatbot interface
 * 🤖 AI-generated customer support responses
@@ -219,12 +219,7 @@ User
 
 ## 👨‍💻 Author
 
-**Your Name**
 
-GitHub: https://github.com/your-github-username
 
----
+GitHub: https://github.com/Anjali28-ish
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
