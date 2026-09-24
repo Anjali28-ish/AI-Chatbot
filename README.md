@@ -51,38 +51,53 @@ An AI-powered customer support chatbot built using **Spring Boot** and **React.j
 ## 📂 Project Structure
 
 ```text
-tomato-support-ai-chatbot/
+Tomatochatbot/
 │
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Header.jsx
-│   │   │   ├── Header.css
-│   │   │   ├── ChatWindow.jsx
-│   │   │   ├── ChatWindow.css
-│   │   │   ├── ChatMessage.jsx
-│   │   │   ├── ChatMessage.css
-│   │   │   ├── ChatInput.jsx
-│   │   │   └── ChatInput.css
+├── tomatochatbot-frontend/
+│   ├── TomatoChatbot/
+│   │   ├── src/
+│   │   │   ├── components/
+│   │   │   │   ├── Header.jsx
+│   │   │   │   ├── Header.css
+│   │   │   │   ├── ChatWindow.jsx
+│   │   │   │   ├── ChatWindow.css
+│   │   │   │   ├── ChatMessage.jsx
+│   │   │   │   ├── ChatMessage.css
+│   │   │   │   ├── ChatInput.jsx
+│   │   │   │   └── ChatInput.css
+│   │   │   │
+│   │   │   ├── App.jsx
+│   │   │   ├── App.css
+│   │   │   ├── main.jsx
+│   │   │   └── index.css
 │   │   │
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   ├── main.jsx
-│   │   └── index.css
+│   │   ├── public/
+│   │   ├── package.json
+│   │   ├── package-lock.json
+│   │   └── vite.config.js
 │   │
-│   └── package.json
+│   └── ...
 │
-├── backend/
+├── tomatochatbot/
 │   ├── src/
 │   │   └── main/
-│   │       └── java/
-│   │           ├── controller/
-│   │           │   └── ChatController.java
-│   │           ├── service/
-│   │           │   └── ChatService.java
-│   │           └── Application.java
+│   │       ├── java/
+│   │       │   └── com/
+│   │       │       └── tomato/
+│   │       │           └── tomatochatbot/
+│   │       │               ├── controller/
+│   │       │               │   └── ChatController.java
+│   │       │               │
+│   │       │               ├── service/
+│   │       │               │   └── ChatService.java
+│   │       │               │
+│   │       │               └── TomatochatbotApplication.java
+│   │       │
+│   │       └── resources/
+│   │           └── application.properties
 │   │
-│   └── pom.xml
+│   ├── pom.xml
+│   └── ...
 │
 ├── images/
 │   └── dashboard.png
