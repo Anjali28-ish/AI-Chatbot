@@ -112,7 +112,7 @@ Tomatochatbot/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/tomato-support-ai-chatbot.git
+git clone https://github.com/https://github.com/Anjali28-ish/tomato-support-ai-chatbot.git
 cd tomato-support-ai-chatbot
 ```
 
