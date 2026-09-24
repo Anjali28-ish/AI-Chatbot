@@ -219,7 +219,8 @@ User
 
 ## 👨‍💻 Author
 
+Anjali Kumari
 
 
-GitHub: https://github.com/Anjali28-ish
+
 
